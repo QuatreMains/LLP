@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-# SECRET_KEY = 'y()(uisiy-o874b_abn4ij+wdp!qn-+&z6xawu5it=nmdfr+8c'
+# SECRET_KEY =
 
 import os
 
