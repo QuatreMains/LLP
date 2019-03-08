@@ -14,7 +14,7 @@ import os
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.environ.get('DJANGO_SECRET_KEY', 'y()(uisiy-o874b_abn4ij+wdp!qn-+&z6xawu5it=nmdfr+8c')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
